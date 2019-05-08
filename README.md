@@ -81,7 +81,7 @@ You need to type these commands every boot time.
 
 You need to rebuild the driver after a Linux kernel update.
 
-#### Building:
+#### Rebuilding:
 
     $ cd waltop-linux
     $ make clean
