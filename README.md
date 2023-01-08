@@ -1,13 +1,11 @@
-Waltop tablet driver
-==========
+# Waltop tablet driver
 
-About
-----------
+
+## About
 
 This is a Linux kernel driver for USB tablets based on Waltop chipsets. This driver supports the proprietary mode.
 
-Supported tablets
-----------
+## Supported tablets
 
 | PID:VID |Model name              |Supported features                 |
 |:-------:|:-----------------------|:----------------------------------|
@@ -36,8 +34,8 @@ Supported tablets
 |172F:0055|?                       |                                   |
 |172F:0056|?                       |                                   |
 |172F:0058|?                       |                                   |
-|172F:0500|Waltop Media Tablet 14.1|4000LPI (not tested)               |
-|172F:0501|Waltop Media Tablet 10.6|4000LPI (not tested)               |
+|172F:0500|Waltop Media Tablet 14.1|4000LPI (untested)                 |
+|172F:0501|Waltop Media Tablet 10.6|4000LPI (untested)                 |
 |172F:0502|Waltop Sirius Tablet    |4000LPI, 1024PL, TS, EK, touch pads|
 |172F:0503|Waltop Venus S Tablet   |4000LPI, 2048PL, TS  (not tested)  |
 |172F:0509|Waltop Vega Tablet      |5080LPI, 2048PL, TS, EK, wheels    |
@@ -49,10 +47,9 @@ Supported tablets
 |TS  |tilt sensitivity|
 |EK  |express keys    |
 
-Building and Installation 
-----------
+## Build and Install
 
-### Dependency
+### Dependencies
 
 - gcc
 - GNU make
@@ -60,7 +57,7 @@ Building and Installation
 - xf86-input-wacom
 - python3
 
-### Building
+### Build
 
     $ git clone https://github.com/lambda2111/waltop-linux.git
     $ cd waltop-linux
@@ -69,7 +66,7 @@ Building and Installation
 
 After that, reboot your PC.
 
-### Installation
+### Install
 
     $ cd waltop-linux
     $ sudo python3 unbind.py
@@ -81,14 +78,13 @@ You need to type these commands every boot time.
 
 You need to rebuild the driver after a Linux kernel update.
 
-#### Rebuilding:
+### Rebuild:
 
     $ cd waltop-linux
     $ make clean
     $ make
 
-Contributors
-----------
+## Contributors
 
 - Fabio Dell'Aria (installer/uninstaller for Ubuntu)
 - floric (Waltop Mars A Tablet)
@@ -97,12 +93,10 @@ Contributors
 
 Thank you for your contribution!
 
-Special Thanks
-----------
+## Special Thanks
 
 - [DIGImend](https://digimend.github.io/)
 
-License
-----------
+## License
 
 GPL (or later)
