@@ -37,7 +37,7 @@ This is a Linux kernel driver for USB tablets based on Waltop chipsets. This dri
 |172F:0500|Waltop Media Tablet 14.1|4000LPI (untested)                 |
 |172F:0501|Waltop Media Tablet 10.6|4000LPI (untested)                 |
 |172F:0502|Waltop Sirius Tablet    |4000LPI, 1024PL, TS, EK, touch pads|
-|172F:0503|Waltop Venus S Tablet   |4000LPI, 2048PL, TS  (not tested)  |
+|172F:0503|Waltop Venus S Tablet   |4000LPI, 2048PL, TS  (untested)    |
 |172F:0509|Waltop Vega Tablet      |5080LPI, 2048PL, TS, EK, wheels    |
 
 |ABBR|Meaning         |
